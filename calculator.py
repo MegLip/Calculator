@@ -16,11 +16,11 @@ def divide (num1, num2):
 print("Podaj działanie, posługując się odpowiednią liczbą:" '\n' "1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:")        #2 choice operation
 choice = input("Podaj numer działania (1,2,3,4): ")
 
-if __name__ == "__main__":                          #3 run calculator and result
+if __name__ == "__main__":                                   #3 run calculator and result
     if choice in ("1", "3"):
         num1 = float(input ("Podaj liczbę nr 1: "))
         num2 = float(input ("Podaj liczbę nr 2: "))
-        print("Podaj następne argumenty lub wciśnij k by zakończyć")
+        print("Podaj następne argumenty lub wciśnij k by zakończyć")               #4 add more arguments
         args = []
         
         while True:
