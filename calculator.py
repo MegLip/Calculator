@@ -16,3 +16,6 @@ def multiply (num1, num2, *args):
     return(y)
 def divide (num1, num2):
     return num1/num2
+
+print("Podaj działanie, posługując się odpowiednią liczbą:" '\n' "1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:")        #2 choice operation
+choice = input("Podaj numer działania (1,2,3,4): ")
