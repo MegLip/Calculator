@@ -37,6 +37,7 @@ if __name__ == "__main__":
         #}
         #op = input("Co będziemy zrobić? (add, multiply)")
         #result = operations[op](num1, num2, *args)
+        
         result = add(num1, num2, *args)
         print(f"Sprawdzam, czy podane wartości są liczbami:", {type(num1)}, {type(num2)}, {type([args])})          #4 check the given value is a number
         logging.info(f"Dodaję {num1} i {num2} i {sum(args)}")
